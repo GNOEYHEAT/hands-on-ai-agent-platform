@@ -1,0 +1,10 @@
+# Python 3.12 권장(3.11~3.13). 버전을 고정해 강의 당일 새 버전으로 실습이 깨지지 않게 한다.
+google-genai==2.34.0
+google-adk[mcp]==2.14.1
+mcp==2.3.0
+ag-ui-adk==0.13.0
+ag-ui-protocol==1.0.0
+fastapi==0.163.0
+uvicorn[standard]==0.54.0
+python-dotenv==1.2.4
+httpx==0.28.1

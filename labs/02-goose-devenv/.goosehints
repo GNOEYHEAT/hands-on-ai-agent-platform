@@ -1,0 +1,5 @@
+이 저장소는 AI 에이전트 플랫폼 개발 Hands-on 강의 실습 저장소다.
+- 샘플 문서는 data/samples/ 에만 있다. 이 폴더 밖의 파일(.env 포함)은 읽지 않는다.
+- Python 코드는 표준 라이브러리를 우선 쓰고, 파일은 UTF-8로 읽고 쓴다.
+- 명령은 저장소 최상위에서 실행한다. 예: python labs/02-goose-devenv/check.py
+- 새 파일은 labs/02-goose-devenv/ 안에만 만든다.
