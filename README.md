@@ -15,7 +15,7 @@
 | 한 줄 설명 | 60분 핵심 요약 | 전체 과정(1일, 5시간) |
 | 수준 | 초급 | 초급~중급 |
 | 시간 | 60분 | 300분(모듈 275분 + 휴식·질의응답 25분, 점심 별도) |
-| 구성 | SESSION 1~5 (M1~M5) | PART 1~5 (M6~M10) |
+| 구성 | SESSION 1–5 (M1–M5) | PART 1–5 (M6–M10) |
 | 실습 | 3개 (L1, L2, L3) | 9개 (L4~L12) |
 | 이런 분께 | 전체 흐름을 한 번 보고 가능성을 확인하고 싶은 분 | 직접 구현하고 나만의 프로토타입까지 만들고 싶은 분 |
 | 슬라이드 | [basic 슬라이드](slides/hands-on-ai-agent-platform-basic.pptx) | [advanced 슬라이드](slides/hands-on-ai-agent-platform-advanced.pptx) |
@@ -464,7 +464,7 @@ export PORT=8001
 
 ## advanced
 
-전체 과정(1일, 300분)입니다. 09:00~12:00, 13:00~15:00에 진행하고 점심(12:00~13:00)은 300분에 넣지 않습니다. 위의 [환경 준비](#환경-준비)를 끝낸 상태에서 시작합니다. 각 실습 폴더는 완성된 상태로 들어 있어서 앞 실습을 끝내지 못해도 바로 시작할 수 있습니다. 자세한 목차와 시간표는 [advanced 커리큘럼](docs/advanced/curriculum.md)에, PART별 상세 자료는 [PART 1](docs/advanced/part-1.md), [PART 2](docs/advanced/part-2.md), [PART 3](docs/advanced/part-3.md), [PART 4](docs/advanced/part-4.md), [PART 5](docs/advanced/part-5.md)에 있습니다.
+전체 과정(1일, 300분)입니다. 09:00–12:00, 13:00–15:00에 진행하고 점심(12:00–13:00)은 300분에 넣지 않습니다. 위의 [환경 준비](#환경-준비)를 끝낸 상태에서 시작합니다. 각 실습 폴더는 완성된 상태로 들어 있어서 앞 실습을 끝내지 못해도 바로 시작할 수 있습니다. 자세한 목차와 시간표는 [advanced 커리큘럼](docs/advanced/curriculum.md)에, PART별 상세 자료는 [PART 1](docs/advanced/part-1.md), [PART 2](docs/advanced/part-2.md), [PART 3](docs/advanced/part-3.md), [PART 4](docs/advanced/part-4.md), [PART 5](docs/advanced/part-5.md)에 있습니다.
 
 | 모듈 | 시간 | 실습 |
 | --- | --- | --- |

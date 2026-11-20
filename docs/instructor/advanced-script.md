@@ -810,7 +810,7 @@ check.py 마지막 줄: CHECK OK
 
 스크립트:
 
-> CopilotKit 런타임의 10~20행입니다. 파일 10행이 Backend 주소, 14행이 에이전트 등록, 18행이 Next.js용 핸들러입니다. 위쪽 3~8행에서 @ag-ui/client의 HttpAgent와 @copilotkit/runtime/v2의 CopilotRuntime, InMemoryAgentRunner, createCopilotRuntimeHandler를 가져옵니다(파일을 열어 함께 보여 줍니다). @copilotkit/runtime 1.88.0의 /v2에는 createCopilotRuntimeHandler와 createCopilotEndpoint가 모두 있는데, 이 실습은 Next.js에 맞는 createCopilotRuntimeHandler를 씁니다. agentId 불일치가 가장 흔한 오류입니다.
+> CopilotKit 런타임의 10–20행입니다. 파일 10행이 Backend 주소, 14행이 에이전트 등록, 18행이 Next.js용 핸들러입니다. 위쪽 3–8행에서 @ag-ui/client의 HttpAgent와 @copilotkit/runtime/v2의 CopilotRuntime, InMemoryAgentRunner, createCopilotRuntimeHandler를 가져옵니다(파일을 열어 함께 보여 줍니다). @copilotkit/runtime 1.88.0의 /v2에는 createCopilotRuntimeHandler와 createCopilotEndpoint가 모두 있는데, 이 실습은 Next.js에 맞는 createCopilotRuntimeHandler를 씁니다. agentId 불일치가 가장 흔한 오류입니다.
 
 ### 64. 화면은 CopilotChat 하나와 보고서 패널이다
 
