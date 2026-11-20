@@ -1,4 +1,4 @@
-# PART 1. LLM API 및 AI 에이전트 개발 환경 구축 (70분)
+# PART 1. LLM API 및 AI 에이전트 개발 환경 구축 (60분)
 
 실습: L4 Gemini API 첫 호출(`labs/01-gemini-api`), L5 Goose로 문서 통계 도구 만들기(`labs/02-goose-devenv`). 결과물: Gemini API가 연결된 Goose 개발 환경.
 
@@ -34,7 +34,7 @@ flowchart LR
 
 사전 준비와 키 등록은 [README 환경 준비](../../README.md#환경-준비)를 따른다.
 
-### L4 Gemini API 첫 호출 (`labs/01-gemini-api`, 20분)
+### L4 Gemini API 첫 호출 (`labs/01-gemini-api`, 15분)
 
 ```
 python labs/01-gemini-api/list_models.py
@@ -57,7 +57,7 @@ python labs/01-gemini-api/check.py
 | `Gemini API 오류 404` | 모델 ID 오타. `DOC_AGENT_MODEL` 확인 |
 | `ModuleNotFoundError: google` | 가상환경 활성화 |
 
-### L5 Goose로 문서 통계 도구 만들기 (`labs/02-goose-devenv`, 25분)
+### L5 Goose로 문서 통계 도구 만들기 (`labs/02-goose-devenv`, 20분)
 
 Goose Desktop 연결 순서는 처음 실행 화면에서 **제공업체에 연결** → **Google Gemini (API Key)** → API 키 입력 → **계속** → 모델로 `gemini-3.5-flash-lite` 선택입니다. 화면 그림과 단계별 설명은 [README의 실습 L5](../../README.md#advanced)에 있고, Goose에 줄 프롬프트는 `labs/02-goose-devenv/goose_prompts.md`에 있습니다. 이미 다른 설정으로 쓰고 있었거나 모델이 목록에 없을 때의 방법(Settings → Models → Configure providers, Switch models → Use custom model)은 공식 문서에서 확인한 것이며 화면으로는 확인하지 못했습니다.
 
@@ -74,6 +74,8 @@ python labs/02-goose-devenv/check.py
 Goose Desktop은 이 문서를 쓰는 환경에 설치되어 있지 않아 실행 확인을 하지 못했다.
 
 ## ⑤ 실습 확장
+
+**강의 뒤 과제**이다. 강의 시간(300분)에는 소개만 하고, 직접 해 보는 것은 강의가 끝난 뒤에 한다.
 
 - `.goosehints`에 프로젝트 규칙(답변 언어, 금지 동작)을 적어 Goose에 맥락을 준다.
 - 모델을 `gemini-3.1-flash-lite` 또는 `gemini-2.5-flash-lite`로 바꿔 본다(`.env`의 `DOC_AGENT_MODEL`, Goose는 모델 선택 화면(목록에 없으면 Use custom model)).

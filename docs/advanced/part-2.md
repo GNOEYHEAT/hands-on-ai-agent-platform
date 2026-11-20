@@ -1,4 +1,4 @@
-# PART 2. Google ADK 기반 AI 에이전트 개발 (110분)
+# PART 2. Google ADK 기반 AI 에이전트 개발 (100분)
 
 실습: L6 첫 ADK 에이전트(`labs/03-adk-agent`), L7 문서 분석 Function Tool(`labs/04-function-tools`), L8 MCP 서버로 문서 도구 연결(`labs/05-mcp-tools`). 결과물: 외부 도구를 활용하는 AI 에이전트.
 
@@ -29,7 +29,7 @@ flowchart LR
 
 ## ④ Hands-on
 
-### L6 첫 ADK 에이전트 (`labs/03-adk-agent`, 20분)
+### L6 첫 ADK 에이전트 (`labs/03-adk-agent`, 15분)
 
 ```
 adk run labs/03-adk-agent/doc_report_agent
@@ -41,7 +41,7 @@ adk run labs/03-adk-agent/doc_report_agent
 python labs/03-adk-agent/check.py
 ```
 
-### L7 문서 분석 Function Tool (`labs/04-function-tools`, 30분)
+### L7 문서 분석 Function Tool (`labs/04-function-tools`, 25분)
 
 ```
 adk run labs/04-function-tools/doc_report_agent
@@ -63,7 +63,7 @@ python labs/04-function-tools/check.py
 | 경로가 절대 경로 | `data/` 기준 상대 경로(`samples/...`)를 쓴다 |
 | 8080 포트 사용 중 | 다른 `adk web`을 끈다 |
 
-### L8 MCP 서버로 문서 도구 연결 (`labs/05-mcp-tools`, 25분)
+### L8 MCP 서버로 문서 도구 연결 (`labs/05-mcp-tools`, 20분)
 
 ```
 python labs/05-mcp-tools/inspect_mcp.py
@@ -84,6 +84,8 @@ python labs/05-mcp-tools/check.py
 주의: MCP 서버 실행 명령에는 `sys.executable`을 써서 가상환경 Python이 뜨게 한다. 서버 코드에서 `print`를 하면 stdio 프로토콜이 깨진다. mcp 2.x의 서버 클래스는 `MCPServer`다. 반환형이 dict인 도구의 결과는 TextContent의 JSON 문자열로 오므로 `inspect_mcp.py`는 `json.loads(result.content[0].text)`로 읽는다.
 
 ## ⑤ 실습 확장
+
+**강의 뒤 과제**이다. 강의 시간(300분)에는 소개만 하고, 직접 해 보는 것은 강의가 끝난 뒤에 한다.
 
 - 외부 API를 부르는 Function Tool을 추가한다([해커톤 확장 가이드](../hackathon-extension-guide.md)).
 - 같은 `doc_mcp_server.py`를 Goose 확장으로 붙여 본다(Goose의 화면 이름은 버전마다 달라 확인하지 못했다).

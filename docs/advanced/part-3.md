@@ -1,4 +1,4 @@
-# PART 3. AG-UI 기반 사용자 인터페이스 개발 (100분)
+# PART 3. AG-UI 기반 사용자 인터페이스 개발 (60분)
 
 실습: L9 ADK 에이전트를 AG-UI로 노출(`labs/06-agui-backend`), L10 CopilotKit 채팅 화면(`labs/07-copilotkit-frontend`). 결과물: 웹 브라우저에서 실행되는 AI 에이전트.
 
@@ -21,7 +21,7 @@
 
 ## ④ Hands-on
 
-### L9 ADK 에이전트를 AG-UI로 노출 (`labs/06-agui-backend`, 25분)
+### L9 ADK 에이전트를 AG-UI로 노출 (`labs/06-agui-backend`, 15분)
 
 터미널 1:
 
@@ -43,7 +43,7 @@ python labs/06-agui-backend/check.py
 
 8000 포트 충돌(`[Errno 10048]`)이 가장 흔하다.
 
-### L10 CopilotKit 채팅 화면 (`labs/07-copilotkit-frontend`, 40분)
+### L10 CopilotKit 채팅 화면 (`labs/07-copilotkit-frontend`, 25분)
 
 터미널 1에서 위의 서버를 띄운 채, 터미널 2에서:
 
@@ -71,6 +71,8 @@ python labs/07-copilotkit-frontend/check.py
 | Node 버전 | 20.9 이상(22 LTS 권장) |
 
 ## ⑤ 실습 확장
+
+**강의 뒤 과제**이다. 강의 시간(300분)에는 소개만 하고, 직접 해 보는 것은 강의가 끝난 뒤에 한다.
 
 공유 상태, Human-in-the-loop(사람 확인), 생성형 UI는 CopilotKit이 제공하는 기능이며 이 실습에서는 구현하지 않았다.
 
